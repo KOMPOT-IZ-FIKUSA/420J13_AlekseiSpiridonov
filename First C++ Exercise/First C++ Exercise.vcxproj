@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="First C++ Exercise.cpp" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="UserAccount.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UserAccount.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
